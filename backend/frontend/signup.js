@@ -1,11 +1,11 @@
 
-let form = document.getElementById('user-form');
+let form = document.getElementById('userForm');
 let inputName = document.getElementById('name');
 let inputEmail = document.getElementById('email');
 let inputPassword = document.getElementById('pwd');
 
 const tohomepage =()=>{
-    window.location.href('https://localhost:3000/index.html');
+    window.location.href = 'http://localhost:3000/home.html';
 }
 
 
