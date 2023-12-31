@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container" style="margin-top: 50px;">
+        <div class="box">
+            <div style="display: flex;">
+                <h1>SignUp Now!</h1>
+                <img src="./images/logo.png" style="width: 60px; height: 60px; margin-left: 50px;">
+            </div>
+            <div class="form">
+                <form class="user-form">
+                    <label for="name"><b>Name*</b><br /></label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" /> <br />
+    
+                    <label for="email"><b> Email Address*</b> <br /></label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email Address" /><br />
+    
+                    <label for="pwd"><b>Password*</b> <br /></label>
+                    <input type="password" id="pwd" name="pwd" placeholder="Enter Password" /><br />
+    
+                    <button type="submit" id="signup">SignUp</button> <br />
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+
+<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+
+<script src="signup.js"></script>
+
+</html>
