@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 let form = document.getElementById('user-form');
+=======
+
+let form = document.getElementById('userForm');
+>>>>>>> 7d5a921f6b6556fca0f028ab84684745fa3bb2c1
 let inputName = document.getElementById('name');
 let inputEmail = document.getElementById('email');
 let inputPassword = document.getElementById('pwd');
 let cnfmsg = document.getElementById('cnfmsg');
 
+<<<<<<< HEAD
 const renderConfirmation = ()=>{
     let msg =  `<div id="alert" class="alert alert-info alert-dismissible fade show" role="alert">
         <strong>Success!</strong> You have been Successfully Registered. Login Now!
@@ -12,6 +18,11 @@ const renderConfirmation = ()=>{
     cnfmsg.innerHTML = msg;
     
 };
+=======
+const tohomepage =()=>{
+    window.location.href = 'http://localhost:3000/home.html';
+}
+>>>>>>> 7d5a921f6b6556fca0f028ab84684745fa3bb2c1
 
 
 //form
