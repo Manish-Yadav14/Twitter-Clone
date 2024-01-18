@@ -4,13 +4,12 @@ const connectDB =require('./db/connect');
 require('dotenv').config();
 
 //routes
-const createUser = require('./routes/login');
+const LoginAndSignUp = require('./routes/login');
 
 app.use(express.json());
 app.use(express.static('./frontend'));
 
-app.use('/api/v2/signup',createUser);
-
+app.use('/api/v2/user',LoginAndSignUp);
 
 const port = process.env.Port || 3000;
 
